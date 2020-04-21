@@ -7,3 +7,5 @@ Tech Stack:
 HTML, CSS and JavaScript
 
 Demo link => https://lappang-cheung.github.io/jokermovielanding/
+
+![image](https://github.com/lappang-cheung/gaspanimation/blob/master/images/screenshot.png)
