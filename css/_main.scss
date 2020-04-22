@@ -3,9 +3,6 @@
     width: 100%;
     min-height: 100vh;
     padding: 0 100px;
-    background: url("../images/bg.jpg");
-    background-position: center;
-    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,6 +16,7 @@
             font-size: 2.5em;
             letter-spacing: 0.1em;
             color: #fff;
+            text-shadow: 1px 1px grey;
 
             span {
                 font-weight: 800;
@@ -32,7 +30,33 @@
             line-height: 1.5em;
             color: #fff;
             margin: 15px 0 35px;
+            text-shadow: 1px 1px grey;
         }
+    }
+
+    &_darkknight {
+        background: url("../images/darkknight/bg.jpg");
+        background-position: center;
+        background-size: cover;
+        opacity: .9;
+    }
+
+    &_joker {
+        background: url("../images/joker/bg.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+
+    &_suicidesquad {
+        background: url("../images/suicidesquad/joker.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+
+    &_timburton {
+        background: url("../images/timburton/bg.png");
+        background-position: center;
+        background-size: cover;
     }
 }
 
@@ -84,10 +108,28 @@
     left: calc(50% - 250px / 2);
     width: 250px;
     height: 150px;
-    background: url("../images/joker.png");
-    background-size: cover;
     cursor: pointer;
     animation: animate 25s linear infinite;
+
+    &_darkknight {
+        background: url("../images/darkknight/poster.jpg");
+        background-size: cover; 
+    }
+
+    &_joker {
+        background: url("../images/joker/joker.png");
+        background-size: cover;
+    }
+
+    &_suicidesquad {
+        background: url("../images/suicidesquad/poster.jpg");
+        background-size: cover;
+    }
+
+    &_timburton {
+        background: url("../images/timburton/poster.png");
+        background-size: cover;
+    }
 }
 
 @keyframes animate {
