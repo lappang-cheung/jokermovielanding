@@ -1,4 +1,4 @@
-@media (max-width: 991px) {
+@media screen and (max-width: 991px) {
     header {
         padding: 20px 50px;
 
@@ -58,5 +58,11 @@
             max-width: 90%;
             outline: none;
         }
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .activeBtn {
+        width: 75% !important;
     }
 }
