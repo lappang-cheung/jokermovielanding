@@ -314,7 +314,7 @@ header .toggle img {
 
 @media screen and (max-width: 450px) {
   .activeBtn {
-    width: 75% !important;
+    width: 100% !important;
   }
 }
 
