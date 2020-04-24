@@ -13,9 +13,20 @@
             <img src="images/logo.png" alt="logo">
         </a>
         <div class="toggle">
-            <img src="images/toggle.png" alt="toggle">
+            <img src="images/toggle.png" alt="toggle" class="toggleBtn" onclick="menuToggle();">
         </div>
     </header>
+    <aside class="sidebar">
+        <img src="./images/close.png" alt="close" class="sidebar_close" onclick="menuToggle();">
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">Joker</a></li>
+                <li><a href="ssjoker.html">Suicide Squad</a></li>
+                <li class="active"><a href="darkknight.html">Dark Knight</a></li>
+                <li><a href="timburton.html">Batman 1989</a></li>
+            </ul>
+        </nav>
+    </aside>
     <div class="banner banner_darkknight">
         <div class="content">
             <h2>Now I'm <span>Always</span> Smiling!</h2>
@@ -45,6 +56,14 @@
         <img src="./images/close.png" alt="close" class="close" onclick="toggle();">
     </div>
     <script type="text/javascript">
+
+        function menuToggle() {
+            var sideNav = document.querySelector('.sidebar');
+            var closeBtn = document.querySelector('.sidebar_close');
+            sideNav.classList.toggle('activeBtn');
+            closeBtn.classList.toggle('activeClose');
+        }
+
         function toggle() {
             var trailer = document.querySelector('.trailer');
             var videos = document.querySelectorAll('iframe, video');

@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 @import "header.scss";
 @import "main.scss";
-@import "mediaQueries";
+@import "mediaQueries.scss";
+@import "sidebar.scss";
 
 * {
     box-sizing: border-box;
