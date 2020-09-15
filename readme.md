@@ -9,3 +9,5 @@ HTML, CSS and JavaScript
 Demo link => https://lappang-cheung.github.io/jokermovielanding/
 
 ![image](https://github.com/lappang-cheung/jokermovielanding/blob/master/screenshot/screenshot.png)
+
+GraphQL version -> https://github.com/lappang-cheung/graphqljoker/settings
