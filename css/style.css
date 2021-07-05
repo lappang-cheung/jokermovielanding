@@ -1,4 +1,6 @@
+/*==================== GOOGLE FONTS ====================*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+/*==================== HEADER ====================*/
 header {
   position: absolute;
   top: 0;
@@ -33,7 +35,7 @@ header .toggle {
 header .toggle img {
   max-width: 100%;
 }
-
+/*==================== BANNER ====================*/
 .banner {
   position: relative;
   width: 100%;
@@ -100,7 +102,7 @@ header .toggle img {
   background: url("../images/timburton/bg.jpg");
   background-position: center;
 }
-
+/*==================== Video Player ====================*/
 .play {
   position: relative;
   display: -webkit-inline-box;
@@ -160,7 +162,7 @@ header .toggle img {
   -webkit-transform: scale(0.6);
           transform: scale(0.6);
 }
-
+/*==================== SLIDE SHOW ====================*/
 .slide {
   position: absolute;
   bottom: 50px;
@@ -191,7 +193,7 @@ header .toggle img {
   background: url("../images/timburton/poster.png");
   background-size: cover;
 }
-
+/*==================== ANIMATION ====================*/
 @-webkit-keyframes animate {
   0%, 100% {
     background-position: top;
@@ -209,7 +211,7 @@ header .toggle img {
     background-position: bottom;
   }
 }
-
+/*==================== TRAILER ====================*/
 .trailer {
   background: rgba(0, 0, 0, 0.95);
   position: fixed;
@@ -251,7 +253,7 @@ header .toggle img {
   visibility: visible;
   opacity: 1;
 }
-
+/*==================== MEDIA QUERIES ====================*/
 @media screen and (max-width: 991px) {
   header {
     padding: 20px 50px;
@@ -412,4 +414,3 @@ header .toggle img {
   margin: 0;
   padding: 0;
 }
-/*# sourceMappingURL=style.css.map */
