@@ -51,29 +51,6 @@
         <iframe class="video" width="80%" height="80%" src="https://www.youtube-nocookie.com/embed/t433PEQGErc?start=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <img src="./images/close.png" alt="close" class="close" onclick="toggle();">
     </div>
-    <script type="text/javascript">
-
-        function menuToggle() {
-            var sideNav = document.querySelector('.sidebar');
-            var closeBtn = document.querySelector('.sidebar_close');
-            sideNav.classList.toggle('activeBtn');
-            closeBtn.classList.toggle('activeClose');
-        }
-
-        function toggle() {
-            var trailer = document.querySelector('.trailer');
-            var videos = document.querySelectorAll('iframe, video');
-            trailer.classList.toggle('active');
-            
-            Array.prototype.forEach.call(videos, function (video) {
-                if (video.tagName.toLowerCase() === 'video') {
-                    video.pause();
-                } else {
-                    var src = video.src;
-                    video.src = src;
-                }
-            });
-        }
-    </script>
+    <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
